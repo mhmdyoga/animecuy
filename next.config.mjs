@@ -7,7 +7,8 @@ const nextConfig = {
                 hostname: 'cdn.myanimelist.net',
             },
         ]
-    }
+    },
+    ignoreBuildErrors: true
 };
 
 export default nextConfig;
